@@ -20,3 +20,18 @@ function setBalance(value){
     const balanceElement = document.getElementById("balance");
     balanceElement.innerText = value;
 }
+
+//machine id > hide 
+function showOnly(id){
+   
+    const addmoney = document.getElementById("add-money");
+    const cashout = document.getElementById("cashout");
+    //  console.log(`add money ${addmoney}, Cashout ${cashout}`);
+    //sobaike hide kore dau
+    addmoney.classList.add("hidden");
+    cashout.classList.add("hidden");
+
+    //id ola element tumi show koro
+    const selected = document.getElementById(id);
+    selected.classList.remove("hidden");
+}
