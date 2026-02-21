@@ -13,7 +13,7 @@ document.getElementById("login-btn").addEventListener("click", function(){
         //true> alert > homepage
         alert("login Success")
         // window.location.replace("/home.html")
-         window.location.assign("/home.html");
+         window.location.assign("home.html");
 
     }else{
         // true > alert return
